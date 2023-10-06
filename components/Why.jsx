@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import CountUp from 'react-countup';
@@ -29,7 +31,7 @@ const Why = () => {
                 </div>
                 <h3 className='font-acumin section_subheading'>Our services are next level. </h3>
                 <p className='font-nimbus section_paragraph'>Chart a course with us towards digital excellence. We specialize in tailored web solutions that reflect your brand's unique identity. Beyond just design, our expertise in SEO and eCommerce ensures your brand remains buoyant amidst industry challenges. With collaboration as our compass, we aim for a partnership that exceeds typical digital boundaries.</p>
-                <button className='button_orange'>Partner up?</button>
+                <button className='button_orange'>Let's Go!</button>
 
                 <div className='number_container'>
                     <div className='number_card'>
