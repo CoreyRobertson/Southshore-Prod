@@ -37,19 +37,19 @@ const WorkCarousel2 = () => {
                     <Image className='carousel_image' alt='iphone Image' src='/images/phone12.png' layout='fill' quality={100} />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image className='carousel_image' src='/images/phone11.png' layout='fill' quality={100} />
+                    <Image className='carousel_image' alt='iphone Image' src='/images/phone11.png' layout='fill' quality={100} />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone10.png' layout='fill' quality={100} />
+                    <Image src='/images/phone10.png' alt='iphone Image' layout='fill' quality={100} />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone9 1.png' layout='fill' quality={100} />
+                    <Image src='/images/phone9 1.png' alt='iphone Image' layout='fill' quality={100} />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone7 1.png' layout='fill' quality={100} />
+                    <Image src='/images/phone7 1.png' alt='iphone Image' layout='fill' quality={100} />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone8 1.png' layout='fill' quality={100} />
+                    <Image src='/images/phone8 1.png' alt='iphone Image' layout='fill' quality={100} />
                 </div>
             </Slider>
         </section>

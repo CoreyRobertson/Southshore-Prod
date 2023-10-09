@@ -980,9 +980,10 @@ footer {
 
   .work_slider {
     margin: 1rem;
-    width: 85vw;
+    width: 95vw;
     padding: 0 !important;
     margin-bottom: 1rem;
+    margin-left: 0 !important;
   }
 
   /* Process Section */
