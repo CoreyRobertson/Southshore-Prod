@@ -33,22 +33,22 @@ const WorkCarousel1 = () => {
         <section className='work_carousel-container'>
             <Slider {...settings} className='work_slider'>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone1.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone1.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone2.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone2.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone3.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone3.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone5 1.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone5 1.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone5 2.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone5 2.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone13 1.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone13 1.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
             </Slider>
         </section>

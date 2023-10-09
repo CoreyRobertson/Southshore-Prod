@@ -34,22 +34,22 @@ const WorkCarousel2 = () => {
         <section className='work_carousel-container'>
             <Slider {...settings} className='work_slider'>
                 <div className='work_carousel-card'>
-                    <Image className='carousel_image' alt='iphone Image' src='/images/phone12.png' layout='fill' quality={100} />
+                    <Image className='carousel_image' alt='iphone Image' src='/images/phone12.png' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image className='carousel_image' alt='iphone Image' src='/images/phone11.png' layout='fill' quality={100} />
+                    <Image className='carousel_image' alt='iphone Image' src='/images/phone11.png' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone10.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone10.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone9 1.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone9 1.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone7 1.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone7 1.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
                 <div className='work_carousel-card'>
-                    <Image src='/images/phone8 1.png' alt='iphone Image' layout='fill' quality={100} />
+                    <Image src='/images/phone8 1.png' alt='iphone Image' layout='fill' quality={100} priority />
                 </div>
             </Slider>
         </section>
