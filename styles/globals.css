@@ -570,6 +570,30 @@ nav {
   z-index: -10;
 }
 
+/* Work Carousel Section */
+
+.work_carousel-container {
+  height: auto;
+}
+
+.work_slider {
+  margin: 1rem;
+  width: 100%;
+  padding: 0 !important;
+  margin-bottom: 1rem;
+}
+
+.work_carousel-card {
+  height: 610px;
+  width: 282px !important;
+  position: relative;
+  border-radius: 20px !important;
+}
+
+.carousel_image {
+  border-radius: 20px;
+}
+
 /* Process Section */
 
 .slider {
@@ -660,13 +684,13 @@ nav {
 .cta_container h3 {
   font-size: 96px;
   margin: 0;
-  color: var(--color-navy);
+  color: var(--color-white);
   font-weight: normal;
   letter-spacing: -6px;
 }
 
 .cta_container p {
-  color: var(--color-navy);
+  color: var(--color-white);
   font-weight: normal;
   width: 40%;
   text-align: center;
@@ -841,7 +865,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .header_flag-container {
@@ -931,6 +955,10 @@ footer {
     width: auto;
   }
 
+  .services_card {
+    height: 100%;
+  }
+
   /* Work Section */
 
   .work_container {
@@ -941,6 +969,20 @@ footer {
     height: 40vh;
     margin-top: 5rem;
     padding: 1rem;
+  }
+
+  .work_carousel-card {
+    height: 345px;
+    width: 171px !important;
+    position: relative;
+    border-radius: 20px !important;
+  }
+
+  .work_slider {
+    margin: 1rem;
+    width: 85vw;
+    padding: 0 !important;
+    margin-bottom: 1rem;
   }
 
   /* Process Section */
@@ -1005,7 +1047,7 @@ footer {
     text-align: center;
     line-height: 60px;
     margin: 0;
-    color: var(--color-navy);
+    color: var(--color-white);
     font-weight: normal;
     letter-spacing: -6px;
   }

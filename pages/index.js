@@ -4,6 +4,8 @@ import Process from '@/components/Process'
 import Services from '@/components/Services'
 import Why from '@/components/Why'
 import Work from '@/components/Work'
+import WorkCarousel1 from '@/components/WorkCarousel1'
+import WorkCarousel2 from '@/components/WorkCarousel2'
 import Head from 'next/head'
 
 
@@ -22,6 +24,8 @@ export default function Home() {
         <Why />
         <Services />
         <Work />
+        <WorkCarousel1 />
+        <WorkCarousel2 />
         <Process />
         <Cta />
       </main>
